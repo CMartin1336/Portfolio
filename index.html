@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,104 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <h1 class="navbar-item">Christian Martin</h1>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
+            <img src="./assets/images/cmlogo.png" width="85" height="28">
+            <h1 class="navbar-item">Christian Martin</h1>
+
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-        <div id="navbarCategories" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item">
+        <div id="navMenu" class="navbar-menu navbar-end">
+
+            <a class="navbar-item" href="#aboutMe">
                 About
-              </a>
-        
-              <a class="navbar-item">
+            </a>
+            <a class="navbar-item" href="#projects">
                 Projects
-              </a>
-        
-                <a class="navbar-item">
-                  Contact
-                </a>
-            </div>
-      </nav>
+            </a>
+            <a class="navbar-item" href="#contactMe">
+                Contact
+            </a>
+        </div>
+    </nav>
+    <div id="aboutMe" class="columns">
+        <div class="column">
+            <img src="./assets/images/profileimg.jpg" alt="Christian Martin close up with wild hair" />
+        </div>
+        <div class="column">
+            <h2>About Christian Martin</h2>
+            <p>This is a little bit about me. I am not entirely sure what to put in here but I will fill it up with
+                content when I am closer to having a completed website. Thank you for taking the time to learn about me
+                and please explore some of my projects below. I will need to fill this with some more background info
+                around me to make the page feel fuller but this is a good start I think. I am excited with what I got.
+            </p>
+        </div>
+    </div>
+    <p>Projects</p>
+    <div id="projects" class="columns">
+        <div class="column is-half">
+            <a href="https://github.com/CMartin1336" target="_blank">
+                <img src="https://via.placeholder.com/600x300" alt="placeholder -  to be first project" />
+            </a>
+        </div>
+        <div class="column is-one-quarter">
+            <a href="https://github.com/CMartin1336" target="_blank">
+                <img src="https://via.placeholder.com/250x300" alt="placeholder2 - to be second project" />
+            </a>
+        </div>
+        <div class="column is-one-quarter">
+            <a href="https://github.com/CMartin1336" target="_blank">
+                <img src="https://via.placeholder.com/250x300" alt="placeholder 3 - to be third project" />
+            </a>
+        </div>
+    </div>
+    <p>Contact Me</p>
+    <div id="contactMe">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        <a href="mailto:christian@stikman.com">Christian@stikman.com</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone
+                    </td>
+                    <td>
+                        760-694-4327
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GitHub
+                    </td>
+                    <td>
+                        <a href="https://github.com/CMartin1336" target="_blank">Click to GitHub</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        LinkedIn
+                    </td>
+                    <td>
+                        <a href="www.linkedin.com/in/christian-martin-179b5191" target="_blank">Click to LinkedIn</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="assets/script.js"></script>
 </body>
+
 </html>
