@@ -18,12 +18,20 @@ a.navbar-item:hover {
 }
 
 #footerBackground {
-    background-color: #8bb193;
+    background-color: #4a4a4a;
 }
 
 #boxBackground {
     border-radius: 15px;
-    background-color: #d8c39b;
+    background-color: #4a4a4a;
+}
+
+.media-content strong {
+    color: white;
+}
+
+footer strong {
+    color: #00d1b2;
 }
 
 @media only screen and (max-width: 768px) {
