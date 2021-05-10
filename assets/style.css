@@ -1,5 +1,5 @@
 body {
-  background-color: #afb4ef;
+  background-color: #8bb193;
 }
 
 .has-image-centered {
@@ -8,7 +8,21 @@ body {
 }
 
 a.navbar-item:hover {
-  background-color: #afb4ef;
+  background-color: #8bb193;
+}
+
+#logoName {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.75em;
+}
+
+#footerBackground {
+    background-color: #8bb193;
+}
+
+#boxBackground {
+    border-radius: 15px;
+    background-color: #d8c39b;
 }
 
 @media only screen and (max-width: 768px) {
