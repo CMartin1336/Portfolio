@@ -5,7 +5,7 @@ My Developer Portfolio
 Update my portfolio page by using BUlma CSS framework and adding in live projects
 
 ## Images
-![Screenshot of page](./assets/images/portfolio.png)
+![Screenshot of page](./assets/images/portfolio2.png)
 
 ## Installation
 1. Create Repo and clone on machine
