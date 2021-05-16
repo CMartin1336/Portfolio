@@ -2,7 +2,7 @@
 My Developer Portfolio
 
 ## Description
-Update my portfolio page by using BUlma CSS framework and adding in live projects
+Update my portfolio page by using Bulma CSS framework and adding in live projects
 
 ## Images
 ![Screenshot of page](./assets/images/portfolio2.png)
