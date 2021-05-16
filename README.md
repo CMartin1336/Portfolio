@@ -2,9 +2,10 @@
 My Developer Portfolio
 
 ## Description
-Update my portfolio page
+Update my portfolio page by using BUlma CSS framework and adding in live projects
 
 ## Images
+![Screenshot of page](./assets/images/portfolio.png)
 
 ## Installation
 1. Create Repo and clone on machine
@@ -13,13 +14,12 @@ Update my portfolio page
 4. Build out CSS
 5. git - add, commit, and push
 6. Test and update
-7. Media quiries
-8. Finish up README.md
-9. Last git - add, commit, and push
-10. Publish GitHub page
+7. Finish up README.md
+8. Last git - add, commit, and push
+9. Publish GitHub page
 
 ## Live Project
-
+https://cmartin1336.github.io/Portfolio/
 
 ## Credit
 Christian Martin
